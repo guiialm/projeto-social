@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* SEMPRE COMEÇAR COM ESSA CONFIGURAÇAO GLOBAL */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100vh; /* E COM "H"*/
+    width: 100vw;  /* E COM "W"*/
+    background-color: black;
+}
+body{
+    background: url(../desafio13/imagens/otofundo.jpg)no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+    /* ~ TELEFONE ~ */
+
+/* POSITION~TRANSFORM DEIXA A IMAGEM NO MEIO DA TELA */
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* USAR ISSO PARA DEIXAR NO MEIO */
+
+    height: 627px;
+    width: 311px;
+    
+    background:url('../desafio13/imagens/frame-iphone.png')no-repeat;
+}
